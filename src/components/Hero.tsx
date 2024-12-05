@@ -1,5 +1,6 @@
 import React from 'react';
-import { Chrome, LayoutGrid, Search, MessageSquare } from 'lucide-react';
+import { Chrome } from 'lucide-react';
+import { HeroImage } from './HeroImage';
 
 export function Hero() {
   return (
@@ -10,23 +11,19 @@ export function Hero() {
             Manage Chrome Tabs <span className="text-blue-600">Effortlessly</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Declutter your browser, organize tabs into groups, and find anything instantly with TabMagic's powerful features.
+            Declutter your browser, organize tabs into groups, find anything instantly, and get summarize what you reading and watching with TabMagic's powerful features.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button className="flex items-center justify-center bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
               <Chrome className="mr-2 h-5 w-5" />
               Add to Chrome - It's Free
             </button>
-            <button className="flex items-center justify-center bg-gray-100 text-gray-700 px-8 py-3 rounded-lg hover:bg-gray-200 transition-colors">
-              Learn More
-            </button>
           </div>
           
           <div className="mt-16">
-            <img 
-              src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?auto=format&fit=crop&w=1200&q=80" 
-              alt="TabMagic Interface"
-              className="rounded-lg shadow-2xl mx-auto"
+            <HeroImage 
+              src="/images/TabMagic-Screenshot-1.png" 
+              alt="TabMagic Interface - Smart Tab Management"
             />
           </div>
         </div>

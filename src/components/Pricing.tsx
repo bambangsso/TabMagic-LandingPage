@@ -6,11 +6,11 @@ const plans = [
     name: "Free",
     price: "0",
     features: [
-      "Up to 50 tabs management",
-      "Basic tab grouping",
-      "Simple search functionality",
-      "3 AI summaries per day",
-      "Community support"
+      "Up to 30 saves",
+      "Up to 3 tabs grouping",
+      "Up to 2 tabs pin",
+      "5 AI Key Points & Chat per day",
+      "No account needed"
     ]
   },
   {
@@ -18,14 +18,13 @@ const plans = [
     price: "19",
     interval: "year",
     features: [
-      "Unlimited tabs management",
-      "Advanced tab grouping",
-      "Advanced search with filters",
-      "Unlimited AI summaries",
-      "AI chat exploration",
-      "Priority support",
-      "Custom keyboard shortcuts",
-      "Cross-device sync"
+      "Unlimited saves",
+      "Unlimited tabs grouping",
+      "Up to 5 tabs pin",
+      "Unlimited AI Key Points & Chat",
+      "AI auto grouping tabs (comming soon)",
+      "Cross-device sync (coming soon)",
+      "Mobile app for on the go access (coming soon)"
     ]
   }
 ];

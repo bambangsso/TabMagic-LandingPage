@@ -4,13 +4,13 @@ import { LayoutGrid, Search, MessageSquare, Users, Zap, Brain } from 'lucide-rea
 const features = [
   {
     icon: <LayoutGrid className="h-6 w-6 text-blue-600" />,
-    title: "Smart Tab Management",
-    description: "Automatically organize and declutter your tabs, making browser management effortless."
+    title: "Super Simple Tab Management",
+    description: "Organize, grouping  and declutter your tabs by your own label, making browser management effortless."
   },
   {
     icon: <Users className="h-6 w-6 text-blue-600" />,
     title: "Intelligent Grouping",
-    description: "Group related tabs automatically based on content and your browsing patterns."
+    description: "Group related tabs automatically based on page content and content (coming soon)"
   },
   {
     icon: <Search className="h-6 w-6 text-blue-600" />,
@@ -20,7 +20,7 @@ const features = [
   {
     icon: <Brain className="h-6 w-6 text-blue-600" />,
     title: "AI-Powered Summaries",
-    description: "Get key points from web content automatically using advanced AI technology."
+    description: "Get key points from web content automatically using advanced AI technology. Use your own OpenAI or Gemini API Key"
   },
   {
     icon: <MessageSquare className="h-6 w-6 text-blue-600" />,
@@ -29,8 +29,8 @@ const features = [
   },
   {
     icon: <Zap className="h-6 w-6 text-blue-600" />,
-    title: "Performance Boost",
-    description: "Optimize browser performance by managing memory usage efficiently."
+    title: "Multi Device Content Access",
+    description: "Get your content on desktop and mobile, seamless experience (coming soon)"
   }
 ];
 
