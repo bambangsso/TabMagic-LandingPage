@@ -24,6 +24,7 @@ export function Footer() {
               </a> */}
               <a href="https://discord.gg/R8gQmeRk" className="hover:text-blue-500">
                 <Discord className="h-6 w-6" />
+                Discord
               </a>              
             </div>
           </div>
