@@ -1,5 +1,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
+import { CHROME_STORE_URL } from '../utils/constants';
+import { logEvent } from '../utils/analytics';
 
 const plans = [
   {
@@ -30,6 +32,12 @@ const plans = [
 ];
 
 export function Pricing() {
+
+  const handleGetStarted = () => {
+    logEvent('Button', 'Click', 'Get Started - Pricing');
+    window.open(CHROME_STORE_URL, '_blank');
+  };
+    
   return (
     <section id="pricing" className="pt-24 pb-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -65,7 +73,7 @@ export function Pricing() {
                   plan.name === "Pro" 
                     ? "bg-blue-600 text-white hover:bg-blue-700" 
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                } transition-colors`}>
+                } transition-colors`} onClick={plan.name === "Free" ? handleGetStarted : undefined}>
                   {plan.name === "Free" ? "Get Started" : "Upgrade to Pro"}
                 </button>
               </div>

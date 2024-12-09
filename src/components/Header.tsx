@@ -3,6 +3,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { TabMagicLogo } from './TabMagicLogo';
 import { logEvent } from '../utils/analytics';
+import { CHROME_STORE_URL } from '../utils/constants';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +14,7 @@ export function Header() {
 
   const handleChromeClick = () => {
     logEvent('Button', 'Click', 'Add to Chrome');
+    window.open(CHROME_STORE_URL, '_blank');
   };
 
   return (
