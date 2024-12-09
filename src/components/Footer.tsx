@@ -1,4 +1,3 @@
-import React from 'react';
 import { Twitter } from 'lucide-react';
 import { TabMagicLogo } from './TabMagicLogo';
 
@@ -22,9 +21,9 @@ export function Footer() {
               <a href="#" className="hover:text-blue-500">
                 <Github className="h-6 w-6" />
               </a> */}
-              <a href="https://discord.gg/R8gQmeRk" className="hover:text-blue-500">
+              <a href="https://discord.gg/R8gQmeRk" className="text-gray-400 hover:text-blue-500 font-medium">
                 Discord
-              </a>              
+              </a>           
             </div>
           </div>
           
