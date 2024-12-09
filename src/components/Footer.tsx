@@ -15,15 +15,15 @@ export function Footer() {
               Transform your browsing experience with smart tab management and AI-powered features.
             </p>
             <div className="flex space-x-4">
-              <a href="https://x.com/bambangsso" className="hover:text-blue-500">
+              <a href="https://x.com/bambangsso" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                 <Twitter className="h-6 w-6" />
               </a> {/*
               <a href="#" className="hover:text-blue-500">
                 <Github className="h-6 w-6" />
               </a> */}
-              <a href="https://discord.gg/R8gQmeRk" className="text-gray-400 hover:text-blue-500 font-medium">
+              <a href="https://discord.gg/R8gQmeRk" className="text-gray-400 hover:text-blue-500 font-medium" target="_blank" rel="noopener noreferrer">
                 Discord
-              </a>           
+              </a>         
             </div>
           </div>
           
