@@ -28,15 +28,17 @@ export function Hero() {
               Add to Chrome - It's Free
             </button>
           </div>
-          {/*
-          <div className="mt-16">
+          
+          <div className="mt-16">{/*
             <HeroImage 
               src="/images/TabMagic-Screenshot-1.png" 
               alt="TabMagic Interface - Smart Tab Management"
-            />
-          </div>*/}
+            />*/}
+            <ImageCarousel />
+          </div>
+          
         </div>
-        <ImageCarousel />
+
       </div>
     </div>
   );
