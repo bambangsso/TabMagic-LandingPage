@@ -3,6 +3,7 @@ import { Chrome } from 'lucide-react';
 import { HeroImage } from './HeroImage';
 import { CHROME_STORE_URL } from '../utils/constants';
 import { logEvent } from '../utils/analytics';
+import { ImageCarousel } from './ImageCarousel';
 
 export function Hero() {
 
@@ -27,14 +28,15 @@ export function Hero() {
               Add to Chrome - It's Free
             </button>
           </div>
-          
+          {/*
           <div className="mt-16">
             <HeroImage 
               src="/images/TabMagic-Screenshot-1.png" 
               alt="TabMagic Interface - Smart Tab Management"
             />
-          </div>
+          </div>*/}
         </div>
+        <ImageCarousel />
       </div>
     </div>
   );
