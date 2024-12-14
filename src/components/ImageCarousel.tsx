@@ -50,11 +50,11 @@ export function ImageCarousel() {
     // Calculate height based on 16:10 aspect ratio
     const aspectRatio = 10 / 16;
     const containerStyle = {
-      paddingTop: `${aspectRatio * 100}%`, // This creates the 16:10 ratio
+      paddingTop: `${aspectRatio * 100}%`,
     };
   
     return (
-      <div className="relative w-full max-w-5xl mx-auto">
+      <div className="relative w-[90%] max-w-5xl mx-auto px-4">
         <div className="relative rounded-lg shadow-2xl overflow-hidden" style={containerStyle}>
           {images.map((image, index) => (
             <div
@@ -102,3 +102,7 @@ export function ImageCarousel() {
       </div>
     );
   }
+
+
+
+  
